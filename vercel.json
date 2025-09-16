@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
   "functions": {
     "pages/api/**/*.ts": {
       "maxDuration": 30
@@ -14,6 +8,7 @@
   "env": {
     "NEXT_PUBLIC_APP_NAME": "WhatsApp Clone",
     "GITHUB_REPO": "vortexvipers476/database",
-    "GITHUB_OWNER": "vortexvipers476"
+    "GITHUB_OWNER": "vortexvipers476",
+    "GITHUB_TOKEN": "@github_token"
   }
 }
